@@ -1,5 +1,5 @@
 {
-    "name": "orionsystem/chilean-bundle",
+    "name": "freshwork/chilean-bundle",
     "description": "A PHP composer package with Chilean validations, common variables, etc. (RUT, IVA, ETC). Ready for Laravel 4. Grande chile ctm :)",
     "authors": [
         {
@@ -18,7 +18,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OrionSystem\\ChileanBundle\\": "src/"
+            "Freshwork\\ChileanBundle\\": "src/"
         }
     }
 }
