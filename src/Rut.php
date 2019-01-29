@@ -39,13 +39,13 @@ class Rut
      * Min amount of chars a RUT can have beign normalized (without dashes or spaces)
      * @var int
      */
-    protected $min_chars = 2;
+    protected $minChars = 2;
 
     /**
      * Max amount of chars a RUT can have beign normalized (without dashes or spaces)
      * @var int
      */
-    protected $max_chars = 10;
+    protected $maxChars = 10;
 
     /**
      * Determines if the class throws exceptions on validations errors
