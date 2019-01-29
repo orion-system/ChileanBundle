@@ -15,11 +15,15 @@ Viva Chile Mierda!
 From the command line, run:
 
 ```
-composer require freshwork/chilean-bundle:^2.0
+composer require freshwork/chilean-bundle 
 ```
 If you're not using Laravel, you are done.
 
 ### Step 2: Laravel Service Provider
+
+If you're using **Laravel 5.5** this package supports Auto-Discovery. So you can skip this step.
+
+**For Laravel 5.4 or below**
 
 Append this line to your `providers` array in your  `config/app.php` file:
 
@@ -170,7 +174,7 @@ class ClientController extends Controller{
 }
 ```
 ---
-#Examples
+# Examples
 RUT Generator
 ```php 
 <?php
@@ -202,9 +206,9 @@ for($i = 0; $i < 10; $i++)
 8.333.479-7
 7.661.557-8
 ```
-This generatos 10 random RUT's between 1.000.000 and 25.000.000
+This generates ten random RUT's between 1.000.000 and 25.000.000
 
-Even a shorter sintaxis: 
+Even a shorter syntaxis: 
 ```php
 <?php
 for($i = 0; $i < 10; $i++)
